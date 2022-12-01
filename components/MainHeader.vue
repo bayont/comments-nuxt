@@ -1,6 +1,6 @@
 <template>
   <header class="header">
-    <Nav />
+    <MainNav />
   </header>
 </template>
 <style scoped>

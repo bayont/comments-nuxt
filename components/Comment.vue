@@ -1,5 +1,5 @@
 <template>
-  <div class="comment" key="comment.id">
+  <article class="comment" key="comment.id">
     <div class="comment_panel--left">
       <div class="comment__avatar">
         <img src="" alt="empty" />
@@ -17,7 +17,7 @@
         <a class="actions--edit"></a>
       </div>
     </div>
-  </div>
+  </article>
 </template>
 <script>
 export default {
