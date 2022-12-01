@@ -16,18 +16,19 @@
   margin: 0 0 0 140px;
   padding: 0;
 }
-.nav__item {
-  border-bottom: 2px solid transparent;
-  color: #606060;
-}
-.nav__item:hover {
-  border-bottom-color: #19b0f6;
-  color: $base-text-color;
-}
+
 .nav__item a {
   padding: 15px;
   display: block;
   color: inherit;
   text-decoration: inherit;
+  border-bottom: 2px solid transparent;
+  color: #606060;
+}
+
+.nav__item a:hover,
+a.router-link-active {
+  border-bottom-color: #19b0f6;
+  color: $base-text-color;
 }
 </style>
