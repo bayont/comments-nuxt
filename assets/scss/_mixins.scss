@@ -1,5 +1,11 @@
 @mixin box-shadow {
-  -webkit-box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 1);
-  -moz-box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 1);
-  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0px 3px 6px 0px rgba(136, 136, 136, 0.3);
+  -moz-box-shadow: 0px 3px 6px 0px rgba(136, 136, 136, 0.3);
+  box-shadow: 0px 3px 6px 0px rgba(136, 136, 136, 0.3);
+}
+
+@mixin box-button-shadow {
+  -webkit-box-shadow: 0px 3px 12px 0px rgba(10, 69, 132, 0.61);
+  -moz-box-shadow: 0px 3px 12px 0px rgba(10, 69, 132, 0.61);
+  box-shadow: 0px 3px 12px 0px rgba(10, 69, 132, 0.61);
 }

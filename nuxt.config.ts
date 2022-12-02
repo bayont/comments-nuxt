@@ -5,7 +5,7 @@ export default defineNuxtConfig({
       link: [
         {
           rel: 'stylesheet',
-          href: 'https://fonts.googleapis.com/css2?family=Lato'
+          href: 'https://fonts.googleapis.com/css2?family=Lato:wght@200;400;700;900'
         }
       ]
     }

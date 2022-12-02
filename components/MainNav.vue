@@ -1,7 +1,7 @@
 <template>
   <nav class="nav">
     <ul class="nav__list">
-      <li class="nav__item"><NuxtLink to="/">O projekcie</NuxtLink></li>
+      <li class="nav__item"><NuxtLink to="/description">Opis projektu</NuxtLink></li>
       <li class="nav__item"><NuxtLink to="/goals">Cele</NuxtLink></li>
       <li class="nav__item"><NuxtLink to="/news">Aktualności</NuxtLink></li>
       <li class="nav__item"><NuxtLink to="/comments">Komentarze</NuxtLink></li>
@@ -13,8 +13,8 @@
   list-style: none;
   display: flex;
   font-size: 16px;
-  margin: 0 0 0 140px;
   padding: 0;
+  margin: 0;
 }
 
 .nav__item a {
