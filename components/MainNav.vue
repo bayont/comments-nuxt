@@ -3,7 +3,9 @@
     <ul class="nav__list">
       <li class="nav__item"><NuxtLink to="/description">Opis projektu</NuxtLink></li>
       <li class="nav__item"><NuxtLink to="/goals">Cele</NuxtLink></li>
-      <li class="nav__item"><NuxtLink to="/news">Aktualności</NuxtLink></li>
+      <li class="nav__item">
+        <NuxtLink to="/news">Aktualności <NotificationBadge :notificationsNumber="46" /></NuxtLink>
+      </li>
       <li class="nav__item"><NuxtLink to="/comments">Komentarze</NuxtLink></li>
     </ul>
   </nav>
@@ -30,5 +32,10 @@
 a.router-link-active {
   border-bottom-color: #19b0f6;
   color: $base-text-color;
+}
+
+.flex {
+  display: flex;
+  align-items: baseline;
 }
 </style>
