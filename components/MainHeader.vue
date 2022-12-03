@@ -11,5 +11,14 @@
   display: flex;
   justify-content: space-around;
   align-items: baseline;
+  overflow-x: scroll;
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+  }
 }
 </style>

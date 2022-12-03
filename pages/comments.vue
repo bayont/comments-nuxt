@@ -84,7 +84,7 @@ export default {
 }
 
 .container {
-  width: 50%;
+  width: min(95vw, 800px);
   margin: 0 auto;
 }
 
@@ -136,5 +136,14 @@ export default {
   line-height: 1.8;
   margin-left: 16px;
   user-select: none;
+}
+
+@media screen and (max-width: 768px) {
+  .form__panel--left {
+    display: none;
+  }
+  .container__form {
+    padding: 0;
+  }
 }
 </style>

@@ -22,6 +22,7 @@ export default {
   padding: 10px 30px;
   cursor: pointer;
   transition: background-position 0.5s, filter 0.2s;
+  white-space: nowrap;
 
   &:hover {
     background-position: 100% 100%;

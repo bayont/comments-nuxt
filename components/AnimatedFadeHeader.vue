@@ -22,6 +22,12 @@
   animation: loop 3s infinite ease-in-out;
 }
 
+@media screen and (max-width: 768px) {
+  .container {
+    font-size: 44px;
+  }
+}
+
 @keyframes loop {
   0% {
     background-position: 0 0;
