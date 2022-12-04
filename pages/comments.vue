@@ -143,6 +143,13 @@ export default {
 .form__input--message {
   @include form__input;
   resize: none;
+  font-size: 14px;
+}
+
+.form__input--author {
+  @include form__input;
+  border-radius: 25px;
+  font-size: 16px;
 }
 
 .form__button--add {
@@ -167,9 +174,15 @@ export default {
   }
 }
 
+.form__input--author + .input-wrapper--placeholder {
+  font-size: 16px;
+}
+
+.form__input--message + .input-wrapper--placeholder {
+  font-size: 14px;
+}
 .input-wrapper--placeholder {
   position: absolute;
-  font-size: 16px;
   color: $muted-text-color;
   transition: font-size 0.3s, transform 0.4s;
   padding: 2px 10px;
@@ -228,12 +241,6 @@ export default {
     transition: color 0.2s, transform 0.5s;
     transform: translate(-9px, -2px);
   }
-}
-
-.form__input--author {
-  @include form__input;
-  border-radius: 25px;
-  font-size: 16px;
 }
 
 .comments-header__counter {
