@@ -1,6 +1,8 @@
 <template>
   <div class="container">
-    <header class="container__header"><slot /></header>
+    <header class="container__header">
+      <slot />
+    </header>
   </div>
 </template>
 <style lang="scss" scoped>

@@ -3,7 +3,7 @@
     <slot />
   </button>
 </template>
-<script>
+<script lang="ts">
 export default {
   emits: ['click']
 };

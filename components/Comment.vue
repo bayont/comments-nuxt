@@ -19,11 +19,11 @@
     </div>
   </article>
 </template>
-<script>
+<script lang="ts">
 export default {
   props: ['comment'],
   methods: {
-    getTimeDifference(date) {
+    getTimeDifference(date: string): string | null {
       return getRelativeTime(date);
     }
   }
