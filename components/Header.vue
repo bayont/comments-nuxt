@@ -1,6 +1,6 @@
 <template>
   <header class="header">
-    <MainNav />
+    <Nav />
     <FadeButton @click="navigateTo('/support')"> Wspieram projekt </FadeButton>
   </header>
 </template>

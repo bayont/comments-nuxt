@@ -49,7 +49,7 @@ export default {
   display: block;
   color: inherit;
   text-decoration: inherit;
-  border: 2px solid transparent;
+  border-bottom: 2px solid transparent;
   color: #606060;
   white-space: nowrap;
 }
@@ -112,10 +112,10 @@ a.router-link-active {
     }
   }
 
-  .nav__item a:hover,
-  a.router-link-active {
+  a.router-link-active,
+  .nav__item a:hover {
     border-bottom-color: transparent;
-    border-left-color: $accent-light-color;
+    font-weight: bold;
   }
 }
 </style>
