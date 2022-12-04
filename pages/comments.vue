@@ -154,7 +154,8 @@ export default {
   position: relative;
 }
 
-.form__input--author:not(:focus) + .input-wrapper--placeholder {
+.form__input--author:not(:focus) + .input-wrapper--placeholder,
+.form__input--message:not(:focus) + .input-wrapper--placeholder {
   &.bubble {
     &::before {
       transition-delay: 0ms;
