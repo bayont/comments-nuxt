@@ -59,7 +59,7 @@ export default {
   },
   methods: {
     submitForm() {
-      (this.$refs.form as HTMLFormElement).submit();
+      return (this.$refs.form as HTMLFormElement).submit;
     },
     async submitComment(event: Event) {
       const author = ((event.target as HTMLFormElement)[0] as HTMLInputElement).value;
@@ -106,7 +106,7 @@ export default {
   margin-bottom: 20px;
   font-family: inherit;
   color: $base-text-color;
-  transition: border-color 0.3s 0.2s;
+  transition: border-color 0.3s;
   &:focus {
     border-color: $accent-light-color;
     color: $accent-dark-text-color;
