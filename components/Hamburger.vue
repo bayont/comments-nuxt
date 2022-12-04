@@ -10,8 +10,8 @@
 export default {
   emits: ['activate'],
   methods: {
-    handleClick(event) {
-      const { classList } = event.target;
+    handleClick(event: Event) {
+      const { classList } = event.target as HTMLButtonElement;
       if (classList.contains('open')) {
         this.$emit('activate', false);
         classList.remove('open');
