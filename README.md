@@ -1,1 +1,1 @@
-# Coffee Media recruitment task - Frontend
+# comments-nuxt
